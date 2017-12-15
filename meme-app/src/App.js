@@ -23,6 +23,7 @@ const style = {
 class App extends Component {
   state = {
     open: false,
+    // meme: null
   };
 
   handleTouchTap = (event) => {
@@ -40,6 +41,22 @@ class App extends Component {
       open: false,
     });
   };
+
+  // componentDidMount() {
+  //   const.that = this;
+  //   fetch('')
+  //     .then((response) => response.json)
+  //     .then((responseJson) => )
+  // }
+
+  // renderCharacters() {
+  //   const { characters } = this.state; /*deconstruct this.state.characters*/
+  //   if(characters && characters.length > 0) {
+  //     return characters.map((obj, key) => {
+  //       return <p key={key}>{obj.name}</p>
+  //     })
+  //   }
+  // }
 
   render() {
     return (

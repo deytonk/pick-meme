@@ -6,7 +6,7 @@ class Judge extends Component {
  render() {
     return (
       <div>
-        <h2>Austin & San Antonio Menu</h2>
+        <h2>Who wins?</h2>
       </div>
     );
   }

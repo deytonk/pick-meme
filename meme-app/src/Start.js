@@ -6,7 +6,7 @@ class Start extends Component {
  render() {
     return (
       <div>
-        <h2>Austin & San Antonio Menu</h2>
+        <h2>Who is playing?</h2>
       </div>
     );
   }
